@@ -362,6 +362,7 @@ body #footer-section .social-list .social-channel img {
   }
   body #forex-program .program-description .forex-title {
     max-width: 500px;
+    padding:0 10px;
     margin: auto;
   }
   body #forex-program .program-description .forex-description {
