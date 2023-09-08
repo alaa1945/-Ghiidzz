@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+body .nav-bar {
+  padding-top: 30px;
+}
+body .nav-bar .social-media-links .social-list {
+  list-style: none;
+  display: flex;
+  float: right;
+  align-items: center;
+}
+body .nav-bar .social-media-links .social-list .social-channel {
+  background-color: #ff007d;
+  border-radius: 50px;
+  width: 30px;
+  text-align: center;
+  margin-right: 6px;
+}
+body .nav-bar .social-media-links .social-list .social-channel:hover {
+  background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+}
+body .nav-bar .social-media-links .social-list .social-channel img {
+  width: 18px;
+  font-weight: 600;
+  height: 30px;
+}
+body .btn {
+  background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+  color: white;
+  padding: 7px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+body .btn:hover {
+  background: #ee0979 !important;
+  color: white;
+}
+body #home {
+  margin-top: 45px;
+}
+body #home .home-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+body #home .home-text .header-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+}
+body #home .home-text .header-description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+body #home .header-banner img {
+  width: 100%;
+  height: 537px;
+}
+body #previous-work {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 55px 0 15px !important;
+}
+body #previous-work .previous-work-header {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px !important;
+}
+body #previous-work .previous-work-description {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 50px !important;
+}
+body #previous-work .video-work {
+  margin-bottom: 65px;
+}
+body #about .about-image img {
+  width: 100%;
+  max-width: 350px;
+}
+body #about .about-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+body #about .about-text .small-text {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #ff4ca3;
+}
+body #about .about-text .about-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+body #about .about-text .about-text-description {
+  font-size: 17px;
+  color: #666666;
+}
+body #partners {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 65px 0 35px !important;
+}
+body #partners .partners-header {
+  font-size: 30px;
+  font-weight: 600;
+}
+body #partners .partners-description {
+  color: #666666;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 50px !important;
+}
+body #partners .partners-logo {
+  margin-bottom: 30px;
+  max-width: 95%;
+}
+body #work {
+  text-align: center;
+  padding: 50px 0 80px !important;
+}
+body #work .work-header {
+  margin-bottom: 40px !important;
+  font-size: 30px;
+  font-weight: 600;
+  max-width: 600px;
+  margin: auto;
+}
+body #work .work-section {
+  display: flex;
+  align-items: center;
+}
+body #work .work-section:first-child .work-description-wrapper {
+  margin-left: 26px;
+}
+body #work .work-section .work-description-wrapper {
+  text-align: left;
+}
+body #work .work-section .work-description-wrapper .work-title {
+  font-weight: 500;
+  font-size: 25px;
+}
+body #work .work-section .work-description-wrapper .work-description {
+  max-width: 477px;
+  margin-bottom: 30px;
+  color: #666666;
+  font-size: 17px;
+}
+body #work .work-section .work-description-wrapper .work-btn {
+  border-radius: 5px !important;
+}
+body #work .personal-image {
+  width: 100%;
+  height: 364px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+body #work .forex-image {
+  width: 100%;
+  height: 364px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+body #forex-program {
+  background-color: #f9f9f9;
+}
+body #forex-program .forex-image2 {
+  width: 100%;
+}
+body #forex-program .program-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body #forex-program .program-description .small-text {
+  font-weight: 400;
+  color: #ff4ca3;
+  margin-bottom: 10px;
+}
+body #forex-program .program-description .forex-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px !important;
+}
+body #forex-program .program-description .forex-description {
+  font-size: 17px;
+  color: #666666;
+}
+body #forex-program .program-description .watch-buttons {
+  display: flex;
+  align-items: center;
+}
+body #forex-program .program-description .watch-buttons .forex-btn {
+  padding: 5px !important;
+  border-radius: 50px !important;
+}
+body #forex-program .program-description .watch-buttons .forex-btn img {
+  width: 27px;
+  height: 29px;
+  margin-left: 4px;
+}
+body #forex-program .program-description .watch-buttons .watch-link {
+  margin-bottom: 0;
+}
+body #forex-program .program-description .watch-buttons .watch-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-left: 6px;
+}
+body #forex-program .program-description .watch-buttons .watch-link a:hover {
+  opacity: 0.7;
+}
+body #contact-us .contact-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px !important;
+  margin: auto;
+  max-width: 500px;
+}
+body #contact-us .contact-description {
+  font-size: 17px;
+  color: #666666;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px !important;
+}
+body #contact-us .contact-btn {
+  border-radius: 3px !important;
+}
+body #footer-section {
+  background-color: hsla(0, 0%, 0%, 0.87);
+}
+body #footer-section .footer-description {
+  color: white;
+  margin-bottom: 0;
+  padding-top: 12px;
+  font-weight: 300;
+}
+body #footer-section .footer-description a {
+  color: #ff007d;
+}
+body #footer-section .social-list {
+  list-style: none;
+  display: flex;
+  float: right;
+  padding-top: 12px;
+  align-items: center;
+}
+body #footer-section .social-list .social-channel {
+  background-color: #ff007d;
+  border-radius: 50px;
+  width: 30px;
+  text-align: center;
+  margin-right: 6px;
+}
+body #footer-section .social-list .social-channel:hover {
+  opacity: 0.7;
+}
+body #footer-section .social-list .social-channel img {
+  width: 18px;
+  font-weight: 600;
+  height: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body #previous-work .video {
+    margin: auto;
+    margin-right: 40px !important;
+  }
+}
+@media (min-width: 990px) {
+  body #about .about-image img {
+    max-width: 100% !important;
+    margin-top: 62px;
+  }
+  body #about .mobile-about {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 1100px) {
+  body .nav-bar {
+    border-bottom: 1px solid lightgrey;
+    padding-top: 22px;
+    padding-bottom: 10px;
+  }
+  body #home {
+    margin-top: 110px;
+  }
+  body #home .home-text {
+    align-items: center !important;
+    margin-bottom: 50px;
+  }
+  body #home .home-text .header-description {
+    text-align: center !important;
+  }
+  body #home .header-banner {
+    text-align: center;
+  }
+  body #home .header-banner img {
+    width: 100%;
+    max-width: 500px;
+    height: 450px;
+  }
+  body #about .about-image img {
+    max-width: 350px;
+  }
+  body #about .mobile-about {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  body #about .mobile-about .about-text {
+    margin-bottom: 70px;
+  }
+  body #work .personal-image {
+    max-width: 400px !important;
+  }
+  body #work .forex-image {
+    max-width: 400px;
+  }
+  body #work .work-section {
+    flex-direction: column-reverse;
+  }
+  body #work .work-section:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  body #work .work-section .work-description-wrapper {
+    margin: 50px 0;
+    text-align: center;
+  }
+  body #forex-program {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  body #forex-program .program-description {
+    padding: 40px 0;
+  }
+  body #forex-program .program-description .forex-title {
+    max-width: 500px;
+    margin: auto;
+  }
+  body #forex-program .program-description .forex-description {
+    padding: 0 15px;
+    max-width: 800px;
+    margin: auto;
+  }
+  body #forex-program .program-description .watch-buttons {
+    justify-content: center;
+  }
+  body #footer-section {
+    text-align: center;
+  }
+  body #footer-section .social-list {
+    float: none !important;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
